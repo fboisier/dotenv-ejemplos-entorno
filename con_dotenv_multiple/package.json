@@ -1,0 +1,17 @@
+{
+  "name": "con_dotenv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set AMBIENTE=desarrollo&& nodemon server.js",
+    "prod": "set AMBIENTE=produccion&& node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
